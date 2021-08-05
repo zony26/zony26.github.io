@@ -1,0 +1,39 @@
+html { 
+  background: url(bacteria.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 { font-family: 'Brush Script MT', cursive;
+	 color: #fdb827;
+	 font-size: 3em;
+}
+h3 { 
+	 color: #fdb827;
+	 font-size: 1.5em;
+}
+
+.container { display: grid;
+			 grid-row-gap: 20px;
+			 flex-flow: left;
+
+			 
+}
+
+.kefla { 
+	  background-color: #b3d9ff;
+	  color: black;
+	  padding: 15px 15px;
+	  text-align: center;
+	  position: left;
+      font-size: 16px;
+	  border-radius: 300px;
+	  position: left;
+	  font-family: Georgia, serif;
+}
+
+.kefla:hover {
+  background-color: #ffff1a;
+}
